@@ -1,0 +1,17 @@
+<svg id="bar-chart" xmlns="http://www.w3.org/2000/svg" width="21.77" height="21.769" viewBox="0 0 21.77 21.769">
+  <g id="Group_8685" data-name="Group 8685" transform="translate(0 12.49)">
+    <g id="Group_8684" data-name="Group 8684">
+      <path id="Path_3626" data-name="Path 3626" d="M2.932,293.776A2.935,2.935,0,0,0,0,296.708v3.414a2.932,2.932,0,1,0,5.864,0v-3.414A2.935,2.935,0,0,0,2.932,293.776Zm1.231,6.346a1.231,1.231,0,1,1-2.463,0v-3.414a1.231,1.231,0,0,1,2.463,0v3.414Z" transform="translate(0 -293.776)" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Group_8687" data-name="Group 8687" transform="translate(7.952)">
+    <g id="Group_8686" data-name="Group 8686">
+      <path id="Path_3627" data-name="Path 3627" d="M189.969,0a2.935,2.935,0,0,0-2.932,2.932v15.9a2.932,2.932,0,1,0,5.864,0V2.932A2.935,2.935,0,0,0,189.969,0ZM191.2,18.836a1.231,1.231,0,1,1-2.463,0V2.932a1.231,1.231,0,1,1,2.463,0Z" transform="translate(-187.037)" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Group_8689" data-name="Group 8689" transform="translate(15.904 6.245)">
+    <g id="Group_8688" data-name="Group 8688">
+      <path id="Path_3628" data-name="Path 3628" d="M377.007,146.888a2.935,2.935,0,0,0-2.932,2.932v9.659a2.932,2.932,0,0,0,5.864,0V149.82A2.935,2.935,0,0,0,377.007,146.888Zm1.231,12.591a1.231,1.231,0,1,1-2.463,0V149.82a1.231,1.231,0,1,1,2.463,0Z" transform="translate(-374.075 -146.888)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
