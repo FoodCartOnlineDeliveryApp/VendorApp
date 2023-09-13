@@ -1,6 +1,6 @@
 import 'dart:collection';
 import 'package:dotted_line/dotted_line.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' hide ModalBottomSheetRoute;
 import 'package:flutter/services.dart';
 import 'package:mealup_restaurant_side/config/Palette.dart';
 import 'package:mealup_restaurant_side/constant/app_strings.dart';
