@@ -70,6 +70,9 @@ dependencies:
   url_launcher: ^6.1.6
   onesignal_flutter: ^3.4.2
   pull_to_refresh: ^2.0.0
+  firebase_messaging: 
+  firebase_core: 
+  flutter_local_notifications: 
 
 
 

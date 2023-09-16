@@ -1,4 +1,4 @@
-package app.saasmonks.mealup.vendor
+package com.vendor.foodapp
 
 import io.flutter.embedding.android.FlutterActivity
 

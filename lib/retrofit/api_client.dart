@@ -129,6 +129,8 @@ abstract class ApiClient {
 
   @GET('${Apis.deleteSubmenu}/{id}')
   Future<DeleteSubMenu> deleteSubmenu(@Path() int? id);
+  @POST("firebase/token")
+  Future<Map<String, dynamic>> addRemoveFCMToken(@Body() Map<String, dynamic> map);
 
 }
 

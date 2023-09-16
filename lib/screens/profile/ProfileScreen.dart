@@ -17,6 +17,8 @@ import 'package:mealup_restaurant_side/screens/profile/screens/ProfileEditScreen
 import 'package:mealup_restaurant_side/utilities/prefConstatnt.dart';
 import 'package:mealup_restaurant_side/utilities/preference.dart';
 
+import '../../utilities/fcm_notification.dart';
+
 class ProfileScreen extends StatefulWidget {
 
   @override
@@ -338,8 +340,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             color: Palette.loginhead,
                             size: 30,
                           ),
-                          onTap: () {
+                          onTap: () async {
+                            await FCMNotification.addRemoveFCMToken(context,processType: 0);
                             SharedPreferenceHelper.clearPref();
+
                             Navigator.of(context).pushAndRemoveUntil(
                                 MaterialPageRoute(
                                     builder: (context) => LoginScreen()),

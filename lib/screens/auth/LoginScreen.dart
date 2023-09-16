@@ -19,6 +19,7 @@ import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
 import 'package:onesignal_flutter/onesignal_flutter.dart';
 import 'package:sizer/sizer.dart';
 
+import '../../utilities/fcm_notification.dart';
 import '../MainScreen.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -321,6 +322,8 @@ class _LoginScreenState extends State<LoginScreen> {
 
       if (response.data!.isVerified == 1) {
         saveValueInPref(response);
+        await FCMNotification.addRemoveFCMToken(context);
+
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(builder: (context) => MainScreen()),
